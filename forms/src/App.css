@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.form {
+  background: rgb(199, 196, 196);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: wrap row;
+  width: 280px;
+  height: 350px;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.form__input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  padding-left: 5px;
+}
+
+.form__password {
+  width: 45%;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  padding-left: 5px;
+}
+
+.form__button {
+  color: rgb(95, 93, 93);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.form__button--checkbox {
+
+}
+
+.card {
+  width: 120px;
+  height: 100px;
+}
+
+.card__span {
+  font-size: 14px;
+}
+
+.form h5 {
+  font-size: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
